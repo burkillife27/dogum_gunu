@@ -52,7 +52,7 @@ h1 {
   background: #ffbe0b;
   border-radius: 50% 50% 20% 20%;
   top: 36px;
-  left: 122px; /* Alevin mumun üzerine oturması için hizalama */
+  left: 122px;
   box-shadow: 0 0 15px #ffbe0b, 0 0 30px #fb5607;
   animation: flicker 0.5s infinite alternate ease-in-out;
   transition: opacity 0.6s ease, transform 0.6s ease;
@@ -123,4 +123,13 @@ button:active {
   font-size: 0.85rem !important;
   color: #ff758f !important;
   font-style: italic;
+}
+
+/* Sürüm Numarası Stili */
+.version-tag {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.35);
+  font-family: monospace;
+  letter-spacing: 1px;
 }

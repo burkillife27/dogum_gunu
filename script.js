@@ -33,7 +33,7 @@ startBtn.addEventListener('click', async () => {
       let average = sum / dataArray.length;
 
       // Eşik Değeri: Mikrofona üflendiğinde ortalama ses yükselir (40 üzeri genelde üflemeyi yakalar)
-      if (average > 80) {
+      if (average > 50) {
         blowOutCandle();
         // Mum söndükten sonra mikrofon yayınını kapatıyoruz
         stream.getTracks().forEach(track => track.stop());
